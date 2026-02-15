@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ranchers Guides - Game Tips, Strategies & Walkthroughs</title>
+    <meta name="description" content="Master The Ranchers with comprehensive guides, tips, and strategies. Learn farming, ranching, building, exploration, and multiplayer gameplay mechanics in The Ranchers.">
+    <meta name="keywords" content="The Ranchers guides, The Ranchers tips, The Ranchers strategies, The Ranchers walkthrough, farming sim guide, The Ranchers tutorial, The Ranchers gameplay guide">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://the-ranchers.com/guides">
+    <meta property="og:title" content="The Ranchers Guides - Game Tips, Strategies & Walkthroughs">
+    <meta property="og:description" content="Master The Ranchers with comprehensive guides, tips, and strategies for farming, ranching, and exploration.">
+    <meta property="og:image" content="https://the-ranchers.com/static/logo.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Ranchers Guides - Game Tips & Strategies">
+    <meta name="twitter:description" content="Master The Ranchers with comprehensive guides, tips, and strategies for farming, ranching, and exploration.">
+    <meta name="twitter:image" content="https://the-ranchers.com/static/logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://the-ranchers.com/static/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://the-ranchers.com/static/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://the-ranchers.com/static/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://the-ranchers.com/static/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://the-ranchers.com/static/logo.png">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://the-ranchers.com/guides">
+    
+    <!-- Resource Hints for Performance -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preload" href="static/base.css" as="style">
+    <link rel="preload" href="static/logo.png" as="image">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="static/base.css?v=1.0.0">
+    
+    <!-- Microsoft Validation -->
+    <meta name="msvalidate.01" content="B362957FC36C5EDDD6079B6D78330424">
+    
+    <!-- IndexNow -->
+    <meta name="yandex-verification" content="b95b8c32fb2905c9" />
+    <meta name="IndexNow-Key" content="B362957FC36C5EDDD6079B6D78330424">
+    <meta name="IndexNow-Url" content="https://the-ranchers.com/guides">
+    
+    <!-- Google Analytics -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-41QK25Z6QH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-41QK25Z6QH');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3143538773884507"
+    crossorigin="anonymous"></script>
+    <style>
+        .guides-hero {
+            background: linear-gradient(135deg, rgba(10, 26, 46, 0.95), rgba(22, 33, 62, 0.90)), 
+                        url('static/images/media/744d17_31520339d6714231b446288b4da557bc~mv2.png');
+            background-size: cover;
+            background-position: center;
+            color: var(--secondary-color);
+            padding: 150px 0 80px;
+            text-align: center;
+            position: relative;
+        }
+
+        .news-hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-weight: 800;
+        }
+
+        .news-hero p {
+            font-size: 1.3rem;
+            color: var(--light-accent);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .news-content {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, rgba(30, 60, 80, 0.5), rgba(50, 80, 100, 0.3)),
+                        radial-gradient(circle at 50% 50%, rgba(124, 179, 66, 0.1), transparent);
+        }
+
+        .news-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .news-tab {
+            background: rgba(255, 255, 255, 0.08);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            color: #e8e8e0;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .news-tab:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.8);
+            color: #fff;
+        }
+
+        .news-tab.active {
+            background: linear-gradient(135deg, #7cb342 0%, #8bc34a 100%);
+            border-color: #8bc34a;
+            color: #1a3c0a;
+            box-shadow: 0 0 15px rgba(124, 179, 66, 0.5);
+        }
+
+        .news-list {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .news-item {
+            background: var(--secondary-color);
+            border-radius: 15px;
+            box-shadow: 0 8px 25px var(--shadow-color);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .news-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px var(--shadow-color);
+        }
+
+        .news-item-header {
+            padding: 2rem 2rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .news-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #7cb342 0%, #8bc34a 100%);
+            color: #ffffff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 10px rgba(124, 179, 66, 0.4);
+        }
+
+        .news-title {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        .news-title a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .news-title a:hover {
+            color: var(--accent-color);
+            text-shadow: none;
+        }
+
+        .news-date {
+            color: var(--text-color);
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        .news-item-content {
+            padding: 1rem 2rem 2rem;
+        }
+
+        .news-excerpt {
+            color: var(--text-color);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .news-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            filter: brightness(1.05) saturate(1.1) contrast(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .news-image:hover {
+            transform: scale(1.02);
+        }
+
+        .guide-image {
+            max-width: 100%;
+            border-radius: 12px;
+            margin: 1.5rem 0;
+            border: 2px solid rgba(124, 179, 66, 0.4);
+        }
+
+        /* Guide Content Styles */
+        .guides-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .guide-section {
+            background: var(--secondary-color);
+            border-radius: 15px;
+            box-shadow: 0 8px 25px var(--shadow-color);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .guide-section:hover {
+            box-shadow: 0 15px 40px var(--shadow-color);
+        }
+
+        .guide-section-header {
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(124, 179, 66, 0.15), rgba(61, 92, 46, 0.08));
+            border-bottom: 2px solid var(--accent-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .guide-section-header h2 {
+            color: #ffffff;
+            font-size: 1.8rem;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .guide-section-body {
+            padding: 2rem;
+            color: var(--text-color);
+            line-height: 1.8;
+        }
+
+        .guide-section-body h3 {
+            color: var(--accent-color);
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .guide-section-body h4 {
+            color: var(--light-accent);
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .guide-section-body ul,
+        .guide-section-body ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        .guide-section-body li {
+            margin: 0.5rem 0;
+        }
+
+        .guide-section-body table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        .guide-section-body table th,
+        .guide-section-body table td {
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        .guide-section-body table th {
+            background: rgba(124, 179, 66, 0.1);
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .guide-section-body code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .read-more-btn {
+            background: linear-gradient(135deg, #7cb342 0%, #8bc34a 100%);
+            color: #ffffff;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            display: inline-block;
+            box-shadow: 0 0 15px rgba(124, 179, 66, 0.4);
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .read-more-btn:hover {
+            background: linear-gradient(135deg, #8bc34a 0%, #7cb342 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 0 25px rgba(124, 179, 66, 0.6);
+        }
+
+        .featured-news {
+            background: linear-gradient(135deg, rgba(20, 40, 60, 0.6), rgba(40, 70, 90, 0.4)),
+                        radial-gradient(circle at 20% 80%, rgba(124, 179, 66, 0.15), transparent);
+            padding: 4rem 0;
+        }
+
+        .featured-item {
+            background: var(--secondary-color);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px var(--shadow-color);
+            border: 1px solid var(--border-color);
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .featured-content {
+            padding: 2rem;
+        }
+
+        .featured-category {
+            background: linear-gradient(135deg, #7cb342 0%, #8bc34a 100%);
+            color: #ffffff;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 15px rgba(124, 179, 66, 0.4);
+        }
+
+        .featured-title {
+            font-size: 2rem;
+            color: #ffffff;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .featured-excerpt {
+            color: var(--text-color);
+            line-height: 1.7;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+            gap: 1rem;
+        }
+
+        .pagination button {
+            background: var(--secondary-color);
+            border: 2px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 0.8rem 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .pagination button:hover,
+        .pagination button.active {
+            background: var(--accent-color);
+            color: var(--secondary-color);
+        }
+
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        @media (max-width: 768px) {
+            .news-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .news-hero p {
+                font-size: 1.1rem;
+            }
+
+            .news-tabs {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .news-tab {
+                width: 100%;
+                max-width: 220px;
+                text-align: center;
+            }
+
+            .news-item-header,
+            .news-item-content {
+                padding: 1.5rem;
+            }
+
+            .featured-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="static/logo.png" alt="The Ranchers Logo">
+                    <span class="logo-text">THE RANCHERS</span>
+                </div>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul role="menubar">
+                    <li role="none"><a href="/" role="menuitem">Home</a></li>
+                    <li role="none"><a href="/media" role="menuitem">Media</a></li>
+                    <li role="none"><a href="/guides" class="active" role="menuitem" aria-current="page">Guides</a></li>
+                    <li role="none" class="dropdown">
+                        <a href="/wiki" role="menuitem">Wiki</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/wiki-animals">Animals</a></li>
+                            <li><a href="/wiki-buildings">Buildings</a></li>
+                            <li><a href="/wiki-vehicles">Vehicles</a></li>
+                            <li><a href="/wiki-items">Items</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation menu">
+            <button class="close-menu" aria-label="Close mobile menu">&times;</button>
+            <ul role="menubar">
+                <li role="none"><a href="/" role="menuitem">Home</a></li>
+                <li role="none"><a href="/media" role="menuitem">Media</a></li>
+                <li role="none"><a href="/guides" role="menuitem">Guides</a></li>
+                <li role="none"><a href="/wiki" role="menuitem">Wiki</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- Guides Hero -->
+        <section class="guides-hero">
+            <div class="container">
+                <h1>GAME GUIDES</h1>
+                <p>Master The Ranchers with comprehensive guides, tips, and strategies. Learn farming, ranching, building, exploration, and cooperative multiplayer mechanics for this open world country-life sim.</p>
+            </div>
+        </section>
+        <script async="async" data-cfasync="false" src="https://pl28415232.effectivegatecpm.com/e2222f6a369d688c072426bfe3400c0b/invoke.js"></script>
+        <div id="container-e2222f6a369d688c072426bfe3400c0b"></div>
+        <!-- Guides Content -->
+        <section class="news-content">
+            <div class="container">
+                <!-- Guide Categories -->
+                <div class="news-tabs">
+                    <button class="news-tab" data-category="all">All Guides</button>
+                    <button class="news-tab active" data-category="beginner">Beginner</button>
+                    <button class="news-tab" data-category="farming">Farming</button>
+                    <button class="news-tab" data-category="ranching">Ranching</button>
+                    <button class="news-tab" data-category="building">Building</button>
+                    <button class="news-tab" data-category="exploration">Exploration</button>
+                    <button class="news-tab" data-category="advanced">Advanced</button>
+                </div>
+
+                <!-- Guides Content - Direct Display -->
+                <div class="guides-content">
+                    <!-- Game Introduction -->
+                    <div class="guide-section" data-category="beginner">
+                        <div class="guide-section-header">
+                            <h2>1. About The Ranchers</h2>
+                            <span class="guide-category">Beginner</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p><strong>The Ranchers</strong> is an open world country-life simulation game developed by RedPilz Studio and published by Trophy Games. <strong>The Ranchers</strong> combines farming, ranching, building, and exploration in a vast 16 km² world. Launching March 20, 2026, it supports 1-4 player cooperative multiplayer.</p>
+                            
+                            <img src="static/images/media/165718457564_n.png" alt="The Ranchers open world countryside" class="guide-image">
+                            
+                            <p>Set in the rural world of Sunvale, <strong>The Ranchers</strong> lets you build your dream ranch, raise animals, grow crops, and explore dungeons. The game features modern systems like micro-energy networks, auction markets, and diverse transportation including pickup trucks, scooters, and yachts.</p>
+                            
+                            <h3>Core Pillars</h3>
+                            <ul>
+                                <li><strong>Farming & Crops:</strong> Clear land, plant seeds, and harvest bountiful yields</li>
+                                <li><strong>Animal Husbandry:</strong> Raise mammal and oviparous animals in barns and coops</li>
+                                <li><strong>Building & Infrastructure:</strong> Construct your dream ranch with workshops and utilities</li>
+                                <li><strong>Exploration:</strong> Discover mines, dungeons, and wild islands</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Early Game -->
+                    <div class="guide-section" data-category="beginner">
+                        <div class="guide-section-header">
+                            <h2>2. Early Game Strategies</h2>
+                            <span class="guide-category">Beginner</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p>In <strong>The Ranchers</strong>, your first priority is <strong>clearing land</strong> and gathering basic resources. Wood and stone from clearing weeds and rocks are essential for your first buildings and tools.</p>
+                            
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Priority</th>
+                                        <th>Action</th>
+                                        <th>Purpose</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>1</strong></td>
+                                        <td>Clear land</td>
+                                        <td>Obtain wood, stone for construction</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>2</strong></td>
+                                        <td>Buy basic tools & seeds</td>
+                                        <td>Start farming and resource collection</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>3</strong></td>
+                                        <td>Hunt & forage</td>
+                                        <td>Quick early income from wildlife and berries</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>4</strong></td>
+                                        <td>Build first barn/coop</td>
+                                        <td>Start animal husbandry</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <h3>Diversify Income</h3>
+                            <p>Don't rely only on farming. Hunting, fishing, and foraging provide early funds. Use the auction market app to sell resources when prices are high.</p>
+                        </div>
+                    </div>
+
+                    <!-- Farming Guide -->
+                    <div class="guide-section" data-category="farming">
+                        <div class="guide-section-header">
+                            <h2>3. Farming & Crop Management</h2>
+                            <span class="guide-category">Farming</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p>Farming in <strong>The Ranchers</strong> is your core income source. Start with basic seeds and expand as you upgrade tools.</p>
+                            
+                            <img src="static/images/media/744d17_31520339d6714231b446288b4da557bc~mv2.png" alt="The Ranchers farming and crop management" class="guide-image">
+                            
+                            <h3>Key Tips</h3>
+                            <ul>
+                                <li><strong>Clear land first:</strong> Remove weeds and rocks to free space for planting</li>
+                                <li><strong>Use fertilizers:</strong> Boost yields and grow higher-quality crops</li>
+                                <li><strong>Upgrade at Lina's Tools:</strong> Better tools = faster harvesting and larger fields</li>
+                                <li><strong>Plan seasons:</strong> Some crops thrive in specific seasons—check the calendar</li>
+                                <li><strong>Water coverage:</strong> Ensure water towers cover your fields for irrigation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Building & Energy -->
+                    <div class="guide-section" data-category="building">
+                        <div class="guide-section-header">
+                            <h2>4. Building & Energy Systems</h2>
+                            <span class="guide-category">Building</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p><strong>The Ranchers</strong> features micro-energy systems. Install wind turbines and solar panels to power your ranch. Sign utility contracts to sell excess electricity to the village for passive income.</p>
+                            
+                            <img src="static/images/media/watertower_coverage.png" alt="The Ranchers water tower and building systems" class="guide-image">
+                            
+                            <h3>Building Priorities</h3>
+                            <ul>
+                                <li><strong>Water towers:</strong> Essential for crops and animal care—expand coverage early</li>
+                                <li><strong>Workshops:</strong> Craft tools, upgrades, and building materials</li>
+                                <li><strong>Energy systems:</strong> Wind turbines and solar panels for passive income</li>
+                            </ul>
+                            <h3>Transportation</h3>
+                            <p>Prioritize getting a pickup truck. The map is huge, and vehicles dramatically improve movement speed and cargo capacity for hauling crops and resources.</p>
+                        </div>
+                    </div>
+
+                    <!-- Ranching Guide -->
+                    <div class="guide-section" data-category="ranching">
+                        <div class="guide-section-header">
+                            <h2>5. Ranching & Animal Care</h2>
+                            <span class="guide-category">Ranching</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p><strong>The Ranchers</strong> features mammal animals (barns) and oviparous animals (coops). Each animal type has unique needs. Build housing before buying animals, and keep them fed and cared for to maximize production.</p>
+                            
+                            <img src="static/images/media/big_coop_interior.png" alt="The Ranchers barn and coop interior" class="guide-image">
+                            
+                            <h3>Animal Care Tips</h3>
+                            <ul>
+                                <li><strong>Barns:</strong> House cows, goats, sheep, rabbits—install Auto-Feeding Kit to automate</li>
+                                <li><strong>Coops:</strong> House chickens—small, medium, big, and deluxe sizes available</li>
+                                <li><strong>Water:</strong> Ensure water towers cover barn and coop areas</li>
+                                <li><strong>Breeding:</strong> Keep roosters for fertilized eggs; breed mammals for herd growth</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Exploration Guide -->
+                    <div class="guide-section" data-category="exploration">
+                        <div class="guide-section-header">
+                            <h2>6. Dungeon & Exploration</h2>
+                            <span class="guide-category">Exploration</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p>Dungeons and ruins in <strong>The Ranchers</strong> contain dangerous monsters and rare resources. Upgrade survival skills before venturing deep. Carry both ranged and melee weapons—ammo may be limited underground.</p>
+                            
+                            <img src="static/images/media/744d17_69a2285bbd6a4c1e971834f2cf6ffd29~mv2.png" alt="The Ranchers open world exploration" class="guide-image">
+                            
+                            <h3>Exploration Tips</h3>
+                            <ul>
+                                <li><strong>Mines & dungeons:</strong> Bring healing items and upgraded weapons</li>
+                                <li><strong>Wild islands:</strong> Use the yacht to reach remote locations</li>
+                                <li><strong>Shipwrecks:</strong> Explore for rare loot and resources</li>
+                                <li><strong>Transport:</strong> Horse, scooter, pickup truck, or yacht—choose based on terrain</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Auction Market -->
+                    <div class="guide-section" data-category="advanced">
+                        <div class="guide-section-header">
+                            <h2>7. Auction Market & Trading</h2>
+                            <span class="guide-category">Advanced</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p>The <strong>auction market</strong> in The Ranchers lets you buy and sell resources to other players. Use the companion mobile app to monitor prices. Sell scarce resources when demand is high for maximum profit.</p>
+                            
+                            <h3>Trading Strategy</h3>
+                            <ul>
+                                <li>Monitor price fluctuations on the mobile app</li>
+                                <li>Stockpile scarce resources and sell when prices peak</li>
+                                <li>Buy low from NPCs, sell high to players on the auction</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Social & Marriage -->
+                    <div class="guide-section" data-category="advanced">
+                        <div class="guide-section-header">
+                            <h2>8. Social & Family System</h2>
+                            <span class="guide-category">Advanced</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p>Build relationships with Sunvale villagers. Learn their schedules and gift preferences. High reputation unlocks store discounts and special building permissions. You can marry NPCs and have children who inherit traits.</p>
+                        </div>
+                    </div>
+
+                    <!-- Automation -->
+                    <div class="guide-section" data-category="advanced">
+                        <div class="guide-section-header">
+                            <h2>9. Late-Game Automation</h2>
+                            <span class="guide-category">Advanced</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p>Endgame goal: <strong>full automation</strong>. Install auto-irrigation and feed dispensers to free yourself from daily chores. Focus on exploring oceans, islands, and deep ruins.</p>
+                            
+                            <img src="static/images/media/autofeeder_interior.png" alt="The Ranchers automation systems" class="guide-image">
+                            
+                            <h3>Automation Checklist</h3>
+                            <ul>
+                                <li>Barn Auto-Feeding Kit for mammal animals</li>
+                                <li>Auto-irrigation for crop fields</li>
+                                <li>Water tower coverage for all buildings</li>
+                                <li>Energy systems for passive income</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="guide-section" data-category="beginner">
+                        <div class="guide-section-header">
+                            <h2>10. Frequently Asked Questions</h2>
+                            <span class="guide-category">Beginner</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <h3>Q: When can I try the demo?</h3>
+                            <p><strong>A:</strong> The Ranchers demo is available during Steam Next Fest from February 12 to March 2, 2026.</p>
+                            
+                            <h3>Q: How does multiplayer work?</h3>
+                            <p><strong>A:</strong> Friends can join your ranch anytime. Up to 4 players can cooperate on farming, ranching, and exploration.</p>
+                            
+                            <h3>Q: Where can I find more info?</h3>
+                            <p><strong>A:</strong> Visit the official wiki at wiki.ranchers.game and join the Discord community for tips and updates.</p>
+                        </div>
+                    </div>
+
+                    <!-- Support & Resources -->
+                    <div class="guide-section" data-category="beginner">
+                        <div class="guide-section-header">
+                            <h2>11. Support & Resources</h2>
+                            <span class="guide-category">Beginner</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <p><strong>The Ranchers</strong> is developed by RedPilz Studio with a focus on cozy country-life simulation meets adventurous exploration.</p>
+                            
+                            <h3>Official Resources</h3>
+                            <ul>
+                                <li><strong>Website:</strong> ranchers.game</li>
+                                <li><strong>Wiki:</strong> wiki.ranchers.game for items, mechanics, and data</li>
+                                <li><strong>Discord:</strong> Join for community support and developer feedback</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="static/logo.png" alt="The Ranchers Logo">
+                        <span class="logo-text">THE RANCHERS</span>
+                    </div>
+                    <p>Master The Ranchers with comprehensive guides and strategies. Learn farming, ranching, building, exploration, and cooperative multiplayer tips.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-heading">Navigation</div>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/media">Media</a></li>
+                        <li><a href="/guides">Guides</a></li>
+                        <li><a href="/wiki">Wiki</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-heading">Community</div>
+                    <ul>
+                        <li><a href="https://discord.gg/ranchersgame" target="_blank" rel="noopener">Discord</a></li>
+                        <li><a href="https://twitter.com/RanchersGame" target="_blank" rel="noopener">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/RanchersGame" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/@RanchersGame" target="_blank" rel="noopener">YouTube</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-heading">Legal</div>
+                    <ul>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 The Ranchers. All rights reserved. | Farm, ranch, build, and explore in the ultimate open world country-life simulation in The Ranchers.</p>
+                <p style="margin-top: 0.5rem; font-size: 0.85rem; opacity: 0.7;">
+                    The Ranchers is a trademark of RedPilz Studio and Trophy Games. This website is not officially affiliated with the game developers.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/base.js?v=1.0.0"></script>
+    <script>
+        // Guides Tab Filtering
+        let activeCategory = 'beginner'; // Default to beginner category
+        
+        document.querySelectorAll('.news-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs
+                document.querySelectorAll('.news-tab').forEach(t => t.classList.remove('active'));
+                // Add active class to clicked tab
+                tab.classList.add('active');
+                
+                // Update active category
+                activeCategory = tab.dataset.category;
+                
+                // Apply filtering
+                applyFilters();
+            });
+        });
+        
+        function applyFilters() {
+            const guideSections = document.querySelectorAll('.guide-section');
+            
+            // Filter by category
+            guideSections.forEach(section => {
+                if (activeCategory === 'all' || section.dataset.category === activeCategory) {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        }
+
+        // Mobile Menu
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const closeMenu = document.querySelector('.close-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+
+        // Initialize filtering
+        applyFilters();
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(10, 26, 46, 0.98)';
+            } else {
+                header.style.background = 'rgba(10, 26, 46, 0.95)';
+            }
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.news-item, .featured-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
