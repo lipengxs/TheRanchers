@@ -162,7 +162,7 @@ function initLightbox() {
                 const imgSrc = item.getAttribute('data-src');
                 if (imgSrc) {
                     lightboxImg.src = imgSrc;
-                    lightboxImg.alt = item.querySelector('img')?.alt || '';
+                    lightboxImg.alt = item.querySelector('img')?.alt || 'The Ranchers game screenshot';
                     lightbox.classList.add('active');
                     document.body.style.overflow = 'hidden';
                 }

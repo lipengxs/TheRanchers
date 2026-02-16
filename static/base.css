@@ -30,6 +30,23 @@
     box-sizing: border-box;
 }
 
+/* Skip to main content - accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--accent-color);
+    color: #fff;
+    padding: 8px 16px;
+    z-index: 10001;
+    font-weight: 600;
+    text-decoration: none;
+    transition: top 0.3s ease;
+}
+.skip-link:focus {
+    top: 0;
+}
+
 body {
     font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7;

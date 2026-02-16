@@ -1,49 +1,58 @@
-# PAX AUTOCRATICA
+# The Ranchers
 
-Welcome to the PAX AUTOCRATICA information website repository. This website provides information about PAX AUTOCRATICA, a satirical totalitarianism colony simulation game combining FPS and Roguelike elements, launching February 3, 2026.
+Welcome to the The Ranchers information website repository. This website provides guides, media, and wiki content for **The Ranchers**, an open world country-life simulation game for 1-4 players developed by RedPilz Studio and published by Trophy Games, launching March 20, 2026.
 
 ## Disclaimer
 
-**Important:** This website is an independent information resource. PAX AUTOCRATICA is a trademark of its respective owners. This website is not officially affiliated with, endorsed by, or sponsored by the game developers or publishers. All game-related content is used for informational purposes under fair use principles.
+**Important:** This website is an independent information resource. The Ranchers is a trademark of RedPilz Studio and Trophy Games. This website is not officially affiliated with, endorsed by, or sponsored by the game developers or publishers. All game-related content is used for informational purposes under fair use principles.
 
 ## Overview
 
-This repository contains the website code for PAX AUTOCRATICA, featuring:
-- Latest news and updates
+This repository contains the website code for The Ranchers, featuring:
+- Game introduction and release countdown
 - Media gallery with screenshots and videos
-- Game guides and information
-- Legal documentation
+- Guides for farming, ranching, building, and exploration
+- Wiki covering animals, buildings, vehicles, and items
+- Legal documentation (Privacy Policy, Terms of Service)
 
 ## Structure
 
 The website includes the following main sections:
 - `/` - Home page
-- `/news` - Latest updates and announcements
-- `/media` - Screenshots, videos, and artwork
+- `/media` - Screenshots, videos, and gameplay gallery
 - `/guides` - Game guides and tutorials
-- `/privacy-policy` - Privacy policy documentation
-- `/terms-of-service` - Terms of service documentation
+- `/wiki` - Wiki hub
+- `/wiki-animals` - Animals (mammal & oviparous)
+- `/wiki-buildings` - Buildings (barns, coops, water towers)
+- `/wiki-vehicles` - Vehicles
+- `/wiki-items` - Items
+- `/privacy-policy` - Privacy policy
+- `/terms-of-service` - Terms of service
 
 ## Development
 
 ### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+- A static file server or hosting platform (e.g., Cloudflare Pages, Netlify, GitHub Pages)
 
 ### Setup
 1. Clone the repository
-2. Install dependencies: `npm install` or `yarn install`
-3. Start development server: `npm run dev` or `yarn dev`
+2. Serve the static files (HTML, CSS, JS, images)
+3. For local development: `npx serve .` or `python -m http.server 8000`
 
-## Contact
+### Deployment
+- Configure `_redirects` for clean URLs (Cloudflare Pages)
+- Ensure `robots.txt` and `sitemap.xml` are accessible at root
 
-- Website: [pax-autocratica.com](https://pax-autocratica.com)
-- Discord: [discord.gg/paxautocratica](https://discord.gg/paxautocratica)
-- Twitter: [@paxautocratica](https://twitter.com/paxautocratica)
-- YouTube: [youtube.com/paxautocratica](https://www.youtube.com/paxautocratica)
+## Contact & Official Resources
+
+- Website: [the-ranchers.com](https://the-ranchers.com)
+- Official Game: [ranchers.game](https://ranchers.game)
+- Discord: [discord.gg/ranchersgame](https://discord.gg/ranchersgame)
+- Twitter: [@RanchersGame](https://twitter.com/RanchersGame)
+- Steam: [store.steampowered.com](https://store.steampowered.com)
 
 ## License
 
-© 2026 PAX AUTOCRATICA. All rights reserved.
+© 2026 The Ranchers. All rights reserved.
 
-**Copyright Notice:** All game content, trademarks, and intellectual property belong to their respective owners. This website does not claim ownership of any game-related content.
+**Copyright Notice:** All game content, trademarks, and intellectual property belong to RedPilz Studio, Trophy Games, and their respective owners. This website does not claim ownership of any game-related content.
