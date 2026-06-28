@@ -3,25 +3,37 @@
     <!-- Main Navigation URLs -->
     <url>
         <loc>https://the-ranchers.com/</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-06-28</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/media</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-06-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://the-ranchers.com/news</loc>
+        <lastmod>2026-06-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://the-ranchers.com/release-date</loc>
+        <lastmod>2026-06-28</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/guides</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-06-28</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/wiki</loc>
-        <lastmod>2026-02-12</lastmod>
+        <lastmod>2026-06-28</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>

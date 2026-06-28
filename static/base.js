@@ -63,9 +63,9 @@ document.addEventListener('DOMContentLoaded', function() {
     setLanguageSelector();
 });
 
-// Countdown Timer for The Ranchers - March 20, 2026
+// Countdown Timer for The Ranchers - Early Access, July 30, 2026
 function initCountdown() {
-    const countDownDate = new Date("March 20, 2026 00:00:00").getTime();
+    const countDownDate = new Date("July 30, 2026 00:00:00").getTime();
     
     const countdown = setInterval(function() {
         const now = new Date().getTime();
