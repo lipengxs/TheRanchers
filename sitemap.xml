@@ -15,21 +15,45 @@
     </url>
     <url>
         <loc>https://the-ranchers.com/news</loc>
-        <lastmod>2026-06-28</lastmod>
+        <lastmod>2026-06-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/release-date</loc>
-        <lastmod>2026-06-28</lastmod>
+        <lastmod>2026-06-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/guides</loc>
-        <lastmod>2026-06-28</lastmod>
+        <lastmod>2026-06-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://the-ranchers.com/beginner-guide</loc>
+        <lastmod>2026-06-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://the-ranchers.com/world-map</loc>
+        <lastmod>2026-06-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://the-ranchers.com/system-requirements</loc>
+        <lastmod>2026-06-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://the-ranchers.com/similar-games</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/wiki</loc>
@@ -51,7 +75,7 @@
     </url>
     <url>
         <loc>https://the-ranchers.com/wiki-vehicles</loc>
-        <lastmod>2026-02-12</lastmod>
+        <lastmod>2026-06-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
