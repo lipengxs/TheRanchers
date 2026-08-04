@@ -3,31 +3,49 @@
     <!-- Main Navigation URLs -->
     <url>
         <loc>https://the-ranchers.com/</loc>
-        <lastmod>2026-06-28</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/media</loc>
-        <lastmod>2026-06-28</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/news</loc>
-        <lastmod>2026-06-29</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/release-date</loc>
-        <lastmod>2026-06-29</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://the-ranchers.com/platforms</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://the-ranchers.com/steam-price-and-availability</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://the-ranchers.com/multiplayer-guide</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
         <loc>https://the-ranchers.com/guides</loc>
-        <lastmod>2026-06-30</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -45,31 +63,31 @@
     </url>
     <url>
         <loc>https://the-ranchers.com/system-requirements</loc>
-        <lastmod>2026-06-30</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/similar-games</loc>
-        <lastmod>2026-06-29</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/wiki</loc>
-        <lastmod>2026-06-28</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/wiki-animals</loc>
-        <lastmod>2026-02-12</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/wiki-buildings</loc>
-        <lastmod>2026-02-12</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
@@ -87,55 +105,55 @@
     </url>
     <url>
         <loc>https://the-ranchers.com/privacy-policy</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/terms-of-service</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/early-access-launch-guide</loc>
-        <lastmod>2026-07-28</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/co-op-first-week-guide</loc>
-        <lastmod>2026-07-28</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/launch-time</loc>
-        <lastmod>2026-07-30</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/demo-vs-early-access</loc>
-        <lastmod>2026-07-30</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/early-access-animals-guide</loc>
-        <lastmod>2026-07-30</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/vehicle-unlocks-guide</loc>
-        <lastmod>2026-07-30</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://the-ranchers.com/co-op-invite-fix</loc>
-        <lastmod>2026-07-30</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
     </url>

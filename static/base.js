@@ -63,44 +63,6 @@ document.addEventListener('DOMContentLoaded', function() {
     setLanguageSelector();
 });
 
-// Countdown Timer for The Ranchers - Early Access, July 30, 2026
-function initCountdown() {
-    const countDownDate = new Date("July 30, 2026 00:00:00").getTime();
-    
-    const countdown = setInterval(function() {
-        const now = new Date().getTime();
-        const distance = countDownDate - now;
-        
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
-        const daysEl = document.getElementById("days");
-        const hoursEl = document.getElementById("hours");
-        const minutesEl = document.getElementById("minutes");
-        const secondsEl = document.getElementById("seconds");
-        
-        if (daysEl) daysEl.innerHTML = days.toString().padStart(2, '0');
-        if (hoursEl) hoursEl.innerHTML = hours.toString().padStart(2, '0');
-        if (minutesEl) minutesEl.innerHTML = minutes.toString().padStart(2, '0');
-        if (secondsEl) secondsEl.innerHTML = seconds.toString().padStart(2, '0');
-        
-        if (distance < 0) {
-            clearInterval(countdown);
-            const countdownContainer = document.querySelector(".countdown");
-            if (countdownContainer) {
-                countdownContainer.innerHTML = "<div style='font-size: 2rem; color: var(--accent-color); font-weight: bold;'>THE RANCHERS LAUNCHED!</div>";
-            }
-        }
-    }, 1000);
-}
-
-// Initialize countdown when DOM is ready
-document.addEventListener('DOMContentLoaded', function() {
-    initCountdown();
-});
-
 // Mobile Menu Toggle
 function initMobileMenu() {
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
