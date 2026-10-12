@@ -1,0 +1,43 @@
+{
+  "game": "The Ranchers",
+  "origin": "https://the-ranchers.com",
+  "updated": "2026-10-12",
+  "title": "Games to Explore After The Ranchers",
+  "description": "Compare selected games for The Ranchers readers, with clear reasons to explore each setting and links to independent guides.",
+  "intro": "A shared ranch is one way to build a virtual home. Explore these alternatives for a larger social setting, a story with secrets, or a stronger connection between gathering and combat.",
+  "disclosure": "These independent guide websites are maintained by the same operator. Recommendations are editorial suggestions, not official partnerships or endorsements. Official game sources are listed separately.",
+  "entries": [
+    {
+      "name": "Loftia",
+      "url": "https://loftiahq.com/",
+      "category": "Farming & Life Sims",
+      "tags": "Social world · housing · farming",
+      "reason": "Explore personal housing, shared neighborhoods and cooperative activities in an online social setting. Start with the housing and multiplayer guides to understand the shape of that community.",
+      "difference": "Loftia centres on an online social world with shared projects and personal living spaces; The Ranchers centres on country-life simulation with farming and small-group cooperation. Similar interests do not imply identical mechanics or multiplayer support."
+    },
+    {
+      "name": "Grave Seasons",
+      "url": "https://graveseasons.com/",
+      "category": "Farming & Life Sims",
+      "tags": "Farming · relationships · mystery",
+      "reason": "Explore how tending a farm and building relationships sit alongside a supernatural mystery. The guide separates everyday systems from spoiler-sensitive investigation information.",
+      "difference": "Grave Seasons centres on a farming life entwined with a supernatural investigation; The Ranchers centres on country-life simulation with farming and small-group cooperation. Similar interests do not imply identical mechanics or multiplayer support."
+    },
+    {
+      "name": "Emberville",
+      "url": "https://embervilleguides.com/",
+      "category": "Farming & Life Sims",
+      "tags": "Action RPG · life skills · rebuilding",
+      "reason": "Read about town rebuilding, life skills and the connection between peaceful activities and action-RPG progression. Useful if you want a home to develop alongside an adventure.",
+      "difference": "Emberville centres on action combat alongside life skills and rebuilding a town; The Ranchers centres on country-life simulation with farming and small-group cooperation. Similar interests do not imply identical mechanics or multiplayer support."
+    }
+  ],
+  "articles": [
+    {
+      "title": "The Ranchers vs Loftia: A Shared Ranch or an Online Social World?",
+      "path": "/the-ranchers-vs-loftia",
+      "summary": "The Ranchers describes a country-life sandbox for 1–4 players. Loftia describes a shared online world across floating islands. Start with the size and style of community you want, then compare farming and housing."
+    }
+  ],
+  "guideRecommendations": []
+}

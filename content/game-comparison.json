@@ -1,0 +1,76 @@
+{
+  "site": "TheRanchers",
+  "path": "/the-ranchers-vs-loftia",
+  "title": "The Ranchers vs Loftia: A Shared Ranch or an Online Social World?",
+  "description": "Compare The Ranchers and Loftia by farming, housing, group structure and official availability before choosing a shared virtual home.",
+  "summary": "The Ranchers describes a country-life sandbox for 1–4 players. Loftia describes a shared online world across floating islands. Start with the size and style of community you want, then compare farming and housing.",
+  "games": [
+    "The Ranchers",
+    "Loftia"
+  ],
+  "rows": [
+    [
+      "Setting",
+      "Country-life sandbox built around a ranch and its surroundings.",
+      "Floating islands with shared activities and personal spaces."
+    ],
+    [
+      "Group structure",
+      "The official description specifies 1–4 players; Steam also lists single-player.",
+      "Steam lists MMO and online co-op; do not infer an exact session size from those labels."
+    ],
+    [
+      "Home activities",
+      "Growing crops, caring for animals and developing a ranch.",
+      "Farming, crafting, decorating and community activities."
+    ],
+    [
+      "Store status on 12 October 2026",
+      "Available in Early Access; Steam displays 30 July 2026.",
+      "Coming soon; Steam displays 3 November 2026."
+    ]
+  ],
+  "sections": [
+    [
+      "Choose the social scale before the scenery",
+      "A ranch shared with a few known players and a wider online social world solve different needs. The Ranchers’ official 1–4-player description gives a concrete starting point for a small group. Loftia instead presents a place to meet people, work together and build a life in the sky. Neither description establishes that the other game’s hosting, progression or visitor rules apply."
+    ],
+    [
+      "Compare what you want to do at home",
+      "The Ranchers describes creating a ranch, caring for animals and growing crops. Loftia names sustainable growing methods such as hydroponics, aquaponics and trellis farming, alongside crafting and decoration. These descriptions help identify an appealing routine; they are not evidence of comparable crop yields, production times or economic balance."
+    ],
+    [
+      "Housing and multiplayer need their own checks",
+      "Before choosing Loftia for a group, read about personal spaces, neighborhoods and its online requirements. Before choosing The Ranchers, verify how the current Early Access build handles joining friends and saves. A co-op label alone does not guarantee that every player’s desired activity, platform or persistence model is supported."
+    ],
+    [
+      "One is available now; the other has a stated plan",
+      "At the time of this check, The Ranchers’ Steam page advertises Early Access availability, while Loftia’s listing is coming soon with a 3 November 2026 date. That is a practical difference if your group wants to play immediately. A displayed release date remains a plan, not a guarantee of an unlock time, regional price or final feature set."
+    ]
+  ],
+  "links": [
+    [
+      "Loftia multiplayer and online requirements",
+      "https://loftiahq.com/multiplayer",
+      "Understand the social structure before planning a group."
+    ],
+    [
+      "Loftia housing and neighborhoods",
+      "https://loftiahq.com/housing",
+      "Explore the announced relationship between homes and shared spaces."
+    ]
+  ],
+  "date": "2026-10-12",
+  "origin": "https://the-ranchers.com",
+  "publisher": "The Ranchers Independent Guide",
+  "sources": [
+    {
+      "label": "The Ranchers official Steam listing",
+      "url": "https://store.steampowered.com/app/1501310/"
+    },
+    {
+      "label": "Loftia official Steam listing",
+      "url": "https://store.steampowered.com/app/2320980/"
+    }
+  ]
+}
